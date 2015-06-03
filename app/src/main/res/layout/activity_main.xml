@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/title_textView"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/spotify_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/spotify"
+        android:tag="Spotify Streamer"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/scores_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/scores"
+        android:tag="Scores"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/library_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/library"
+        android:tag="Library"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/build_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/build"
+        android:tag="Build It Bigger"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/bacon_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/bacon"
+        android:tag="Beacon Reader"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="16dp"
+        android:text="@string/capstone"
+        android:tag="Capstone"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
+
+</LinearLayout>
